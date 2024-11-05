@@ -1,0 +1,568 @@
+body {
+    margin: 0 auto;
+    width: 100%;
+}
+
+/*------------header styling-----*/
+header {
+    background-color:#2A5D7A;
+    font-size: 10pt;
+    color: white;
+    padding: 0.8%;
+}
+
+header ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0%;
+    width: 57%;
+    padding: 0%;
+    margin-left: 5%;
+    text-align: center;
+}
+
+header ul li {
+    display: inline-block;
+/*    margin-left: 3%;*/
+    width: 32%;
+}
+
+header i {
+    margin-top: 3%;
+/*    margin-right: 3%;*/
+}
+
+header p{
+    margin-bottom: 0%;
+/*    margin-left: 15%;*/
+    display: inline-block;
+}
+
+header .col-3 p{
+    margin-left: 15%;
+}
+
+/*--------navigation bar-------*/
+#navBar{
+    color: #2A5D7A !important;
+    padding: ;
+}
+
+#navBar img{
+    height: 50px;
+}
+
+#navBarBook{
+    background-color: #A87550;
+    color: white !important;
+    height: 100%;
+    padding-top: 9%;
+    text-align: center;
+}
+
+#navBarBook img{
+    height: 23px;
+    margin-right: 2%;
+}
+
+#navBar .col-3{
+    padding: 0%;
+}
+
+#navBar .col-9{
+    margin-left: 5%;
+    width: 70%;
+}
+
+#navBar ul{
+    margin-left: 7%;
+}
+
+#navbar ul li{
+    margin-left: 2%;
+    padding: 2% ;
+}
+
+/*------first section-------*/
+#firstSection{
+    background-image: url('../images/background1.png');
+    background-size: cover;
+    padding: 7%;
+    color: white;
+    position: relative;
+    height: 660px;
+}
+
+#firstSection h5{
+    font-size: 20px;
+}
+
+#firstSection h1{
+    font-size: 96px;
+    margin-bottom: 2%;
+}
+
+#firstSection button{
+    background-color: #A87550;
+    width: 70%;
+    color: white;
+    margin-top: 2%;
+}
+
+#firstSection img{
+    margin-right: 4.5%;
+}
+
+/*--------second section--------*/
+#secSection{
+    background-color: white;
+    margin-left: 0%;
+    margin-right: 0%;
+    box-shadow: 4px 6px 5px grey;
+    position: absolute;
+    top: 116%;
+    left: 5%;
+    border: 1px solid white;
+    border-radius: 18px;
+}
+
+#secSection button:last-child{
+    background-color: #2A5D7A;
+    color: white !important;
+    margin-top: 4%;
+    padding: 5%;
+    display: flex;
+    width: 100%;
+}
+
+#secSection button:last-child img{
+    height: 40px;
+    margin-top: 2%;
+    margin-left: 4%;
+}
+
+#secSection button:last-child h5{
+    font-size: 18px;
+    margin-left: 10%;
+}
+
+#secSection ul{
+    display: inline-block;
+    list-style-type: none;
+    margin-bottom: 0%;
+    text-align: center;
+}
+
+#secSection li{
+    display: inline-block;
+    width: 18%;
+}
+
+#secSection h6{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#secSection p{
+    font-size: 18px;
+    font-weight: bold;
+    color: #2A5D7A;
+}
+
+#secSection hr{
+    margin-bottom: 0%;
+}
+
+/*--------third section-------*/
+
+#thirdSec{
+    position: relative;
+    padding: 5%;
+}
+
+#joker{
+    content: "";
+    background-image: url('../images/texture.png');
+    opacity: 5%;
+    position: absolute; 
+    top: 130%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 750px;
+    z-index: -1;
+}
+
+#thirdSec h1{
+    color: #2A5D7A;
+    font-weight: bold;
+    margin-top: 8%;
+}
+
+#thirdSec p{
+    font-size: 16px;
+}
+
+#thirdSec #firstRow button{
+    background-color: #A87550;
+    color: white;
+    margin-top: 8%;
+}
+#thirdSec #firstRow div:last-child{
+    text-align: right;
+}
+
+/*cards in third section*/
+#cards{
+    margin-left: 2%;
+}
+
+#cards ul{
+    list-style-type: none;
+    display: inline-block;
+    margin-bottom: 0;
+    width: 100%;
+    padding-left: 0;
+}
+
+#cards ul li{
+    display: inline-block;
+    width: 32%;
+    font-size: 13px;
+    color: #9499A6;
+}
+
+#cards ul li i{
+    color: #2A5D7A;
+    margin-right: 4%;
+}
+
+#cards hr{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#cards h6, span{
+    font-size: 10px;
+    color: #2A5D7A;
+}
+
+#cards .btn{
+    color: white;
+    background-color: #A87550;
+    border: none;
+    font-weight: 100;
+    margin-left: 25%;
+}
+
+#cards that{
+    display: flex;
+}
+
+#cards that h6{
+    margin-left: 43%;
+    margin-top: 5%;
+}
+
+#cards h5{
+    color: #2A5D7A;
+}
+
+#thirdSec #cards p{
+    margin-top: 1%;
+    font-size: 12px;
+    color: #9499A6;
+}
+
+#thirdSec #cards img{
+    height: 200px;
+}
+
+.carousel-control-prev i{
+    margin-right: 71%;
+    color: black;
+}
+
+.carousel-control-next i{
+    margin-left: 95%;
+    color: black;
+}
+
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 10px;
+    height: 10px;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: black;
+    background-clip: padding-box;
+    transition: opacity 0.6s ease;
+    margin-bottom: -2%;
+    border-radius: 34px;
+    border: 1px solid transparent;
+}
+
+/*------fourth section-----*/
+#fourthSec{
+    background-color: #2A5D7A;
+    padding: 4% 7%;
+}
+
+#fourthSec h2{
+    font-weight: bold;
+}
+
+#fourthSec button{
+    background-color: #A87550;
+    width: 90%;
+    color: white;
+}
+
+#fourthSec img{
+    width: 332px;
+    height: 510px;
+    margin-top: 10%;
+}
+
+#fourthSec p{
+    width: 90%;
+}
+
+/*-----fifth section-----*/
+
+#fifthSec{
+    padding: 5% 7%;
+}
+
+#fifthSec button{
+    margin-top: 5%;
+    margin-left: 81%;
+    background-color: #2A5D7A;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    color: white;
+    padding: 1.5%;
+    width: 25%;
+}
+
+#fifthSec h2{
+    color: #2A5D7A;
+    font-weight: bold;
+}
+
+#fifthSec img{
+    border-radius: 20px;
+}
+
+#fifthSec #image1{
+    height: 300px;
+    width: 600px;
+}
+
+#fifthSec #image2{
+    height: 300px;
+    width: 475px;
+}
+
+#fifthSec #image3{
+    height: 300px;
+    width: 648px;
+}
+
+#fifthSec #image4{
+    height: 300px;
+    width: 418px;
+    margin-left: 18%;
+}
+
+#fifthSec #secRow{
+    margin-top: 3%;
+}
+
+#fifthSec #thirdRow{
+    margin-top: 3%;
+}
+
+
+/*-------sixth section------*/
+
+#sixthSec{
+    background-color: #2A5D7A;
+    text-align: center;
+    padding: 4% 8%;
+}
+
+#sixthSec h3, h6{
+    font-weight: bold;
+    color: #F7A163;
+}
+
+#sixthSec p{
+    color: white;
+    font-size: 14px;
+}
+
+#sixthSec img{
+    width: 41.68px;
+    height: 41.68px;
+}
+
+#sixthSec h6{
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+
+#sixthSec .twoSided{
+    border-right: 1px solid white ;
+    border-bottom: 1px solid white;
+}
+
+#sixthSec .oneSided{
+    border-right: 1px solid white ;
+}
+
+#sixthSec .oneSidedBottom{
+    border-bottom: 1px solid white;
+}
+
+#sixthSec .row div{
+    padding: 3%;
+}
+
+#sixthSec #rOneP{
+    margin-bottom: 5%;
+    margin-top: 3%;
+}
+
+/*------seventh section------*/
+
+#seventhSec{
+    padding: 5% 10%;
+    position: relative;
+}
+
+
+#joker2{
+    background-image: url('../images/texture.png');
+    opacity: 5%;
+    height: 660px;
+    position: absolute; 
+    /*top: 630%;
+    bottom: 0;*/
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+#seventhSec button{
+    background-color: #2A5D7A;
+    color: white;
+}
+
+#seventhSec .seventhImage{
+    background-image: url('../images/seventhSec.png');
+    background-size: cover;
+    height: 550px;
+}
+
+#seventhSec h4{
+    margin-top: 7%;
+}
+
+/*------last section-----*/
+#lastSec{
+    text-align: center;
+}
+#lastSec h2{
+    font-weight: bold;
+}
+
+#lastSec p{
+    font-size: 14px;
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 1%;
+}
+
+#lastSec #team{
+    position: relative;
+    height: 300px;
+}
+
+#lastSec #team div{
+    width: 180px;
+    height: 180px;
+    border: 3px solid white;
+    border-radius: 50%;
+    background-color:  #eaf1f8;
+    margin-left: 12%;
+}
+
+#lastSec #team img{
+    margin-top: 10%;
+    height: 150px;
+}
+
+#lastSec #firstCircl{
+    background-color: #F7A163 !important;
+    position: absolute;
+    z-index: 1;
+    bottom: 15%;
+    left: 30.5%;
+}
+
+#lastSec #firstCircl img{
+    margin-left: -19%;
+    border-radius: 70%;
+}
+
+#lastSec #secCircl{
+     position: absolute;
+    z-index:0;
+    left: 42%;
+    bottom: 5%;
+}
+
+#lastSec #secCircl img{
+    border-radius: 40%;
+}
+
+#lastSec #thirdCircl{
+     position: absolute;
+    z-index: -1;
+    left: 54%;
+    bottom: 0%;
+}
+
+#lastSec #thirdCircl img{
+    margin-left: -45%;
+    border-radius: 50%;
+    padding: 5%;
+}
+
+#lastSec #fourthCircl{
+    position: absolute;
+    z-index: -1;
+    left: 7%;
+    bottom: 0%;
+}
+
+#lastSec #fourthCircl img{
+    border-radius: 50%;
+}
+
+#lastSec #fifthCircl{
+    position: absolute;
+    z-index:0;
+    left: 19%;
+    bottom: 5%;
+}
+
+#lastSec #fifthCircl img{
+    border-radius: 50%;
+}
+
